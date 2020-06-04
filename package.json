@@ -1,0 +1,36 @@
+{
+  "name": "attainu",
+  "version": "1.0.0",
+  "description": "AttainU Assignment",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jsonpatch": "^3.0.1",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "sharp": "^0.25.3",
+    "validator": "^10.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5",
+    "dotenv": "^8.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thedevhaider/attainu.git"
+  },
+  "author": "Haider",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thedevhaider/attainu/issues"
+  },
+  "homepage": "https://github.com/thedevhaider/attainu#readme"
+}
